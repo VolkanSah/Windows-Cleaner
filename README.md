@@ -51,6 +51,7 @@ By using this script, you eliminate the need for third-party software such as:
 ## Changelog
 
 ### v2.0
+(now public for all)
 * **Per-category space tracking** via `Run-Step` helper function — each cleanup stage now reports freed MB individually.
 * **Deprecated API replaced**: `Get-EventLog` (removed in PS 7+) replaced with `Get-WinEvent` + `EventLogSession.GlobalSession.ClearLog()`.
 * **DISM/SFC excluded from space tracking** — runtime too long for a meaningful before/after delta; reported separately.
@@ -62,6 +63,7 @@ By using this script, you eliminate the need for third-party software such as:
 * Structured, color-coded console output (green / gray / yellow sections).
 
 ### v1.0
+(was Privat)
 * Initial release.
 * Single total space delta (before/after entire script).
 * Combined PowerShell cmdlets and CMD binaries in one block.
